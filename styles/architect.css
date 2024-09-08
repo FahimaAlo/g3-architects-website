@@ -172,8 +172,19 @@ main{
 .sponsors-img-container img{
     width: 165px;
 }
-
-
+/* footer section */
+    .footer-content{
+        width: 1440px;
+        height: 100px;
+        margin: 50px;
+        justify-content: center;    
+        background-color: #FFF4E7;
+    }
+    .footer-title{
+        justify-content: center;
+        text-align: center;
+         padding: 1.5rem;
+    }
 
 
 
@@ -207,6 +218,16 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    .footer-content{
+        height: 40px;
+        width: 50px;
+        margin: 0;
+
+    }
+    .footer-title{
+        justify-content:0;
+        text-align: justify;
+    }
     
 }
 /* medium devices */
@@ -219,6 +240,16 @@ main{
     .features
     {
         flex-direction: column;
+    }
+    .footer-content{
+        height: 40px;
+        width: 50px;
+        margin: 0;
+
+    }
+    .footer-title{
+        justify-content:0;
+        text-align: justify;
     }
     
 }
